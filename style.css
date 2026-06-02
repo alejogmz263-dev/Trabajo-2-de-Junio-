@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(to bottom,#dbeafe,#f8fafc);
+    color:#333;
+}
+
+.principal{
+    background:#2563eb;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+nav{
+    background:#1e40af;
+    padding:15px;
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    list-style:none;
+    gap:20px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#1e40af;
+    background:white;
+    padding:8px 15px;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    background:#dbeafe;
+}
+
+.imagen-principal{
+    width:85%;
+    max-width:1000px;
+    margin:20px auto;
+}
+
+.imagen-principal img{
+    width:100%;
+    border-radius:10px;
+}
+
+main{
+    width:85%;
+    max-width:1000px;
+    margin:20px auto;
+}
+
+section{
+    background:white;
+    border:1px solid #d1d5db;
+    border-radius:10px;
+    padding:25px;
+    margin-bottom:20px;
+}
+
+h2{
+    color:#1e40af;
+    margin-bottom:15px;
+}
+
+p{
+    margin-bottom:12px;
+    text-align:justify;
+}
+
+ul{
+    margin-left:25px;
+    margin-bottom:15px;
+}
+
+.ejemplo-web{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:10px;
+    margin:20px 0;
+}
+
+.parte{
+    padding:20px;
+    text-align:center;
+    font-weight:bold;
+    border-radius:5px;
+}
+
+.encabezado{
+    background:#60a5fa;
+    grid-column:1/3;
+}
+
+.menu{
+    background:#93c5fd;
+    grid-column:1/3;
+}
+
+.contenido{
+    background:#bfdbfe;
+    min-height:120px;
+}
+
+.lateral{
+    background:#dbeafe;
+}
+
+.pie{
+    background:#60a5fa;
+    grid-column:1/3;
+}
+
+button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#1e40af;
+}
+
+#mensaje{
+    margin-top:15px;
+    color:#1e40af;
+    font-weight:bold;
+}
+
+footer{
+    background:#1e293b;
+    color:white;
+    padding:25px;
+}
+
+footer h3{
+    margin-bottom:10px;
+}
+
+footer ul{
+    margin-left:20px;
+}
+
+footer p{
+    text-align:center;
+    margin-top:15px;
+}
